@@ -1,0 +1,89 @@
+header img {
+    margin-bottom: 1em;
+}
+
+.mydot{
+     background: #f56a6a;
+     border-radius: 50%;
+     display: inline-block;
+     height: 0.5em;
+     margin-left: 0.5em;
+     margin-right: 0.5em;
+     margin-bottom: 0.125em;
+     width: 0.5em;
+}
+
+#banner .image img {
+    object-position: left;
+}
+
+#footer-sponsors > div > a {
+    border-bottom:none;
+}
+
+.close {
+    float:right;
+    margin-top:0.375em;
+}
+
+.notification {
+    padding: 2em;
+    margin: 2em 2em 0em 2em;
+    background-color:#f7c6c6;
+    border-radius: 16px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.talk {
+    width: 100% !important;
+    margin:0 0 3em 0 !important;
+}
+.talk-item {
+    margin: 0 0 0.5em 0 !important;
+}
+.talk-prof {
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-right: 24px;
+}
+
+.cancelled {
+    position: relative;
+    height:100px;
+    width:auto;
+    top:-10px;
+    left:-10px;
+}
+
+.admin_edit {
+    float: right;
+    margin-left: 1em;
+}
+
+.important {
+    color: red;
+    font-weight: bold;
+}
+
+.required:before {
+    content:"*";
+    color:red;
+}
+
+.errorlist {
+    color:red;
+    list-style-position:inside;
+    list-style: none;
+}
+.errorlist > li:before {
+    color:red;
+    content: '\26A0';
+    margin: 0 1em;
+}
